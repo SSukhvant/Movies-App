@@ -89,7 +89,7 @@ function App() {
           exact
           path="/"
           element={
-            <MoviesContainer data={data} isLoaded={isLoaded} error={error} />
+            <MoviesContainer data={data} isLoaded={isLoaded} error={error} handleChange={handleChange} searchMovie={searchMovie} />
           }
         />
         <Route exact path="/movie/:id" element={<Movie />} />
