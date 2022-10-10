@@ -1,0 +1,26 @@
+.path-link {
+    text-decoration: none;
+    color: #777;
+    transition: all 0.2s ease;
+}
+
+.path-link:hover {
+    color: white;
+}
+
+.genres {
+    display: flex;
+    gap: 0.4rem;
+    padding: 0;
+    list-style: none;
+}
+
+.genre::after {
+    font-weight: bold;
+    color: #f8f9fa;
+    content: ",";
+}
+
+.genre:last-child::after {
+    content: '';
+}
