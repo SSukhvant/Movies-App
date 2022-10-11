@@ -47,6 +47,7 @@ function App() {
           (response) => {
             setIsLoaded(true);
             setData(response.data.results);
+            setDataSearch(response.data.results);
           },
           (error) => {
             setIsLoaded(true);
