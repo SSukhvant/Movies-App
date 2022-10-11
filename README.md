@@ -2,9 +2,9 @@
  
  ![alt text](./src/assets/screenshort.png)
 
- Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ [Live Demo](https://s-movies-app.netlify.app)
 
- ## Note: In this Web App, User can use only one filter at one time, there is no multi filter feature available for now.
+ ### Note: In this Web App, User can use only one filter at one time, there is no multi filter feature available for now.
 
  # Getting Started with Create React App
 
@@ -13,7 +13,8 @@ In the project directory, you can run:
 ### `npm run dev`
 
 Runs the app in the development mode.\
-[Live Demo](https://s-movies-app.netlify.app)
+
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
 ### `npm run build`
 
